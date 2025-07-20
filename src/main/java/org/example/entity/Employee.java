@@ -4,17 +4,17 @@ package org.example.entity;
 import java.util.Objects;
 
 public class Employee {
-    private long id;
+    private int id;
     private String firstname;
     private String lastname;
 
-    public Employee(long id, String firstname, String lastname) {
+    public Employee(int id, String firstname, String lastname) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
