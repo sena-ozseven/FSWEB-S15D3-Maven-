@@ -8,6 +8,10 @@ public class Main {
     private static List<Employee> duplicatedEmployees;
 
     public static void main(String[] args) {
+
+        System.out.println( WordCounter.calculatedWord());
+
+
         System.out.println("Hello World!");
         List<Employee> employees = new ArrayList<>();
         employees.add(new Employee(1, "ucubik", "fırıldak"));
@@ -58,6 +62,10 @@ public class Main {
         List<Employee> onlyUnique = new LinkedList<>(uniques.values());
         onlyUnique.removeAll(duplicates);
         return onlyUnique;
+
+
     }
+
+
 
 }
